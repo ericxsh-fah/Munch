@@ -4,7 +4,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 // IMPORTANT: schimba acest IP cu adresa IP locala a calculatorului tau
 // (gaseste-o cu `ipconfig` pe Windows sau `ifconfig`/`ipconfig getifaddr en0` pe Mac)
 // Telefonul si calculatorul trebuie sa fie pe aceeasi retea WiFi.
-const BASE_URL = 'http://192.168.1.100:3000/api';
+const BASE_URL = 'https://calorie-app-backend-char.onrender.com/api';
 
 const api = axios.create({ baseURL: BASE_URL });
 

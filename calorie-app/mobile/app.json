@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "CalorieApp",
+    "slug": "calorie-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": { "supportsTablet": true },
+    "android": { "package": "com.calorieapp.free" },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "CalorieApp are nevoie de acces la cameră pentru a scana codurile de bare ale produselor."
+        }
+      ]
+    ]
+  }
+}

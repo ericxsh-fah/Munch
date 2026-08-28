@@ -3,7 +3,7 @@ services:
     name: calorie-app-backend
     runtime: node
     plan: free
-    rootDir: backend
+    rootDir: calorie-app/backend
     buildCommand: npm install && npm run seed
     startCommand: npm start
     envVars:
